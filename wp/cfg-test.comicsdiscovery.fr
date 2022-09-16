@@ -1,0 +1,36 @@
+site_title="TITRE DU SITE"
+site_slogan="Un site via wpcli fast"
+site_basedir="$HOME"
+site_mail="badelgeek@gmail.com"
+
+# CATEGORY
+site_categories=(
+	"Categorie 1"
+	"Category2"
+	"CAT3"
+	"ARI and co"
+	"GOLD"
+)
+
+# PLUGINS DL
+site_plugins_web="
+	codepress-admin-columns
+	crop-thumbnails
+	cookie-law-info
+	easy-table-of-contents
+	duplicate-post
+	google-site-kit
+	imagify
+	instant-images
+	regenerate-thumbnails
+	upload-media-by-url
+	wp-seopress
+	wps-hide-login 
+"
+
+# PLUGINS DL
+site_plugins_files=""
+
+# THEMES
+site_themes_install="astra generatepress polite"
+site_theme_activate="generatepress"
