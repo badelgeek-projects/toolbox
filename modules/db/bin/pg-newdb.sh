@@ -31,24 +31,16 @@ _dbpassword=${_all}
 # PROGRAM
 #----------------------------------------------
 echo 
-echo "####### WORDPRESS ######################"
-echo
-echo "site = $site"
-echo "site_dir = $site_dir"
-echo "wp_user = $wp_user"
-echo "wp_password = $wp_password"
-echo
-echo 
 echo "####### DATABASE #######################"
 echo
 echo db=$_db
 echo db_user=$_dbuser
 echo db_password=$_dbpassword
 echo
+echo psql -U $_dbuser -d $_db -f file.sql
 
 confirm "Run Installation"
 
-exit 0
 
 #----------------------------
 # CREATE DB + DBUSER
